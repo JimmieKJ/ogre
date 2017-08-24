@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource">
+	<Resource type="ResourceLayout" name="BubbleCSLiu" version="3.2.0">
+		<Widget type="Widget" skin="PanelEmpty" position="0 0 194 100" name="Root">
+			<Property key="Snap" value="true"/>
+			<Property key="Movable" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="Window"/>
+			<Widget type="Widget" skin="clientliu" position="0 0 191 67" align="HStretch Top"/>
+			
+			<Widget type="Widget" skin="bottomLiu" position="0 68 195 17" align="HStretch Bottom"/>
+		</Widget>
+	</Resource>
+</MyGUI>

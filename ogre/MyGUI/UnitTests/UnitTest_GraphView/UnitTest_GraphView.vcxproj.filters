@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AnimationGraphFactory.cpp">
+      <Filter>Animation\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationNodeFactory.cpp">
+      <Filter>Animation\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoKeeper.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphNodeFactory.cpp">
+      <Filter>Demo\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Tools\Dialog.cpp">
+      <Filter>OpenSaveFileDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Tools\DialogManager.cpp">
+      <Filter>OpenSaveFileDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Tools\OpenSaveFileDialog.cpp">
+      <Filter>OpenSaveFileDialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimationGraph.h">
+      <Filter>Animation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationGraphFactory.h">
+      <Filter>Animation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationNodeFactory.h">
+      <Filter>Animation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionReceiver.h">
+      <Filter>Animation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventController.h">
+      <Filter>Animation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeController.h">
+      <Filter>Animation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Group2Controller.h">
+      <Filter>Animation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IAnimationGraph.h">
+      <Filter>Animation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IAnimationNode.h">
+      <Filter>Animation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IAnimationNodeConstruct.h">
+      <Filter>Animation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoopController.h">
+      <Filter>Animation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionController.h">
+      <Filter>Animation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonState.h">
+      <Filter>Animation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WeightController.h">
+      <Filter>Animation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGraphConnection.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGraphNode.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGraphView.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionInfo.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContextMenu.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IGraphController.h">
+      <Filter>Common\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseAnimationNode.h">
+      <Filter>Demo\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoKeeper.h">
+      <Filter>Demo\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphNodeFactory.h">
+      <Filter>Demo\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphView.h">
+      <Filter>Demo\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IGraphNodeConstruct.h">
+      <Filter>Demo\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphNodeEventController.h">
+      <Filter>Demo\Header Files\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphNodeFadeController.h">
+      <Filter>Demo\Header Files\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphNodeGroup2Controller.h">
+      <Filter>Demo\Header Files\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphNodeLoopController.h">
+      <Filter>Demo\Header Files\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphNodePositionController.h">
+      <Filter>Demo\Header Files\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphNodeSkeletonState.h">
+      <Filter>Demo\Header Files\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphNodeWeightController.h">
+      <Filter>Demo\Header Files\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Tools\Dialog.h">
+      <Filter>OpenSaveFileDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Tools\DialogManager.h">
+      <Filter>OpenSaveFileDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Tools\OpenSaveFileDialog.h">
+      <Filter>OpenSaveFileDialog</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Filter>Demo\Resource</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Animation\Header Files">
+      <UniqueIdentifier>{642859ED-23A0-493E-9441-9261DBCC6C67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\Source">
+      <UniqueIdentifier>{9552E755-29E1-4311-8D80-8375B50FD430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\Header Files\Nodes">
+      <UniqueIdentifier>{F08E53D6-F7AE-43DE-B5CA-FD8F1085CE37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Header Files">
+      <UniqueIdentifier>{6BB02B60-7849-47D3-A2E6-72DE56708F63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\Header Files">
+      <UniqueIdentifier>{378007EE-6888-47B0-ADA9-66450E48BED5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\Source">
+      <UniqueIdentifier>{27C0C06C-9814-4C0C-A0EB-85F01DFE76F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\Resource">
+      <UniqueIdentifier>{CBCC877B-AE0E-4958-AA78-489495D35CB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenSaveFileDialog">
+      <UniqueIdentifier>{1AFDE61E-350A-4356-B4CD-6809A9646173}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Common\Base\BaseResource.rc">
+      <Filter>Demo\Resource</Filter>
+    </None>
+  </ItemGroup>
+</Project>

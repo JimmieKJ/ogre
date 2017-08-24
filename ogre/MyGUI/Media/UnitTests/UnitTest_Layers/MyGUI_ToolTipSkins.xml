@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource" version="1.1">
+    <Resource type="ResourceSkin" name="BubbleTop" size="194 10" texture="tooltips.png">
+        <BasisSkin type="SubSkin" offset="0 0 194 10" align="Stretch">
+            <State name="normal" offset="303 159 194 10"/>
+        </BasisSkin>
+    </Resource>
+    <Resource type="ResourceSkin" name="BubbleBottom" size="194 18" texture="tooltips.png">
+        <BasisSkin type="SubSkin" offset="0 0 194 18" align="Stretch">
+            <State name="normal" offset="303 223 194 18"/>
+        </BasisSkin>
+    </Resource>
+    <Resource type="ResourceSkin" name="BubbleLeft" size="8 4" texture="tooltips.png">
+        <BasisSkin type="SubSkin" offset="0 0 8 4" align="Stretch">
+            <State name="normal" offset="303 177 8 4"/>
+        </BasisSkin>
+    </Resource>
+    <Resource type="ResourceSkin" name="BubbleRight" size="8 4" texture="tooltips.png">
+        <BasisSkin type="SubSkin" offset="0 0 8 4" align="Stretch">
+            <State name="normal" offset="490 177 8 4"/>
+        </BasisSkin>
+    </Resource>
+    <Resource type="ResourceSkin" name="BubbleBg" size="1 1" texture="tooltips.png">
+        <BasisSkin type="SubSkin" offset="0 0 1 1" align="Stretch">
+            <State name="normal" offset="395 188 1 1"/>
+        </BasisSkin>
+    </Resource>
+    <Resource type="ResourceSkin" name="BubbleClient" size="194 54" texture="tooltips.png">
+        <BasisSkin type="SubSkin" offset="0 0 194 54" align="Stretch">
+            <State name="normal" offset="303 169 194 54"/>
+        </BasisSkin>
+    </Resource>
+</MyGUI>

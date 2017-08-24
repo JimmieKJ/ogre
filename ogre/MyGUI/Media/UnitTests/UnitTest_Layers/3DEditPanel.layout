@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout">
+    <Widget type="Window" skin="WindowCS" position="0 0 500 100" layer="RTT_EditPlane" name="_Main">
+        <Property key="Caption" value="编辑框打字demo的"/>
+        <Property key="MinSize" value="100 100"/>
+	<Property key="Movable" value="false"/>
+        <Widget type="EditBox" skin="EditBoxStretch" position="0 0 490 100" align="Stretch" name="Edit">
+            <Property key="Caption" value="选择要输入的文字\nand then select colour to RTT_EditPlane colour it."/>
+			<Property key="TabPrinting" value="true"/>
+		</Widget>
+    </Widget>
+</MyGUI>

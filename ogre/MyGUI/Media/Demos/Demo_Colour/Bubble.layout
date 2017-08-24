@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout">
+
+    <Widget type="Window" skin="PanelEmpty" position="60 30 194 81" layer="Overlapped" name="_Main">
+        <Property key="Caption" value="编辑框"/>
+        <Property key="MinSize" value="150 150"/>
+			
+			<Widget type="EditBox" skin="EditBox" position="4 6 188 66" align="Stretch" name="Edit">
+				<Property key="Caption" value="气泡的1234456789012345文字abc\nand"/>
+				<Property key="TabPrinting" value="true"/>
+		    </Widget>
+			
+			<Widget type="Widget" skin="BubbleTop" position="0 0 194 10" align="HStretch Top"/>
+			<Widget type="Widget" skin="BubbleClient" position="0 10 194 54" align="Stretch"/>
+			<Widget type="Widget" skin="BubbleBottom" position="0 64 194 18" align="HStretch Bottom"/>
+
+		
+    </Widget>
+
+			
+</MyGUI>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout">
+    <Widget type="Window" skin="WindowCS" position="30 55 427 411" layer="Overlapped" name="_Main">
+        <Property key="Caption" value="编辑框"/>
+        <Property key="MinSize" value="150 150"/>
+        <Widget type="EditBox" skin="EditBoxStretch" position="3 4 412 238" align="Stretch" name="Edit">
+            <Property key="Caption" value="选择要输入的文字\nand then select colour to colour it."/>
+			<Property key="TabPrinting" value="true"/>
+		</Widget>
+		<Widget type="Button" skin="Button" position = "7 240 44 60" align = "left Top" name = "Button"> 
+			<Property key="Caption" value="buttronliu"/>
+			<Property key="Event" value = "minimized"/> 
+		</Widget> 
+
+		
+    </Widget>
+</MyGUI>

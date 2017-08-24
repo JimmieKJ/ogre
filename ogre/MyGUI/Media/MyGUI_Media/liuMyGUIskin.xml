@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource" version="1.1">
+    <Resource type="ResourceSkin" name="clientliu" size="191 67" texture="tooltips.png">
+        <BasisSkin type="SubSkin" offset="0 0 191 67" align="Stretch">
+            <State name="normal" offset="0 0 191 67"/>
+        </BasisSkin>
+    </Resource>
+    <Resource type="ResourceSkin" name="bottomLiu" size="195 17" texture="tooltips.png">
+        <BasisSkin type="SubSkin" offset="0 0 195 17" align="Stretch">
+            <State name="normal" offset="0 0 195 17"/>
+        </BasisSkin>
+    </Resource>
+</MyGUI>

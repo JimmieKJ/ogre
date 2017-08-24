@@ -1,0 +1,17 @@
+material BubbleLiuMaterial
+{
+	technique
+	{
+		pass
+		{
+			//diffuse 1.0 1.0 0.0 1.0
+			cull_hardware none
+			depth_write off
+			scene_blend alpha_blend
+			texture_unit gui
+			{
+				texture Gun.png
+			}
+		}
+	}
+}

@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{2D54D6AC-3DB0-4784-8A06-18ED55E34A3A}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\OpenResource\MyGUI\MyGUI_3.2.0\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\bin\x86\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LayoutEditor.dir\Debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">LayoutEditor.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LayoutEditor</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">LayoutEditor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\OpenResource\MyGUI\MyGUI_3.2.0\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\bin\x86\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LayoutEditor.dir\Release\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">LayoutEditor.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LayoutEditor</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">LayoutEditor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\OpenResource\MyGUI\MyGUI_3.2.0\bin\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\OpenResource\MyGUI\MyGUI_3.2.0\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LayoutEditor.dir\MinSizeRel\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">LayoutEditor.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LayoutEditor</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">LayoutEditor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\OpenResource\MyGUI\MyGUI_3.2.0\bin\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\OpenResource\MyGUI\MyGUI_3.2.0\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LayoutEditor.dir\RelWithDebInfo\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">LayoutEditor.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LayoutEditor</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">LayoutEditor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(OGRE_HOME)\OgreMain\include;$(OGRE_HOME)\include</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;MYGUI_RTTI_DISABLE_TYPE_INFO;_CRT_SECURE_NO_WARNINGS;MYGUI_OGRE_PLATFORM;MYGUI_SAMPLES_INPUT_WIN32;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>F:/OpenResource/MyGUI/MyGUI_3.2.0/bin/Debug/LayoutEditor.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;../../lib/Debug/Common_d.lib;../../lib/Debug/MyGUI.OgrePlatform_d.lib;../../lib/Debug/MyGUIEngine_d.lib;OgreMain_d.lib;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/Dependencies/lib/x86/debug/freetype2311_D.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/lib;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>F:/OpenResource/MyGUI/MyGUI_3.2.0/lib/Debug/LayoutEditor.lib</ImportLibrary>
+      <ProgramDataBaseFileName>F:/OpenResource/MyGUI/MyGUI_3.2.0/bin/Debug/LayoutEditor.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Windows</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm500 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>.\;..\..\MyGUIEngine\include;..\..\Common;..\..\Common\Base\Ogre;..\..\Common\Input\Win32;..\..\Platforms\Ogre\OgrePlatform\include;$(ThirdLib)/Ogre 1.8.1/include;$(ThirdLib)/Ogre 1.8.1/OgreMain/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;MYGUI_RTTI_DISABLE_TYPE_INFO;_CRT_SECURE_NO_WARNINGS;MYGUI_OGRE_PLATFORM;MYGUI_SAMPLES_INPUT_WIN32;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>../../bin/x86/Debug/LayoutEditor.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;../../lib/x86/Debug/Common_d.lib;../../lib/x86/Debug/MyGUI_d.lib;../../lib/x86/Debug/MyGUIEngine_d.lib;OgreMain_d.lib;freetype2311_D.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OGRE_HOME)\Dependencies\lib\Debug;$(Configuration);$(OGRE_HOME)\lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>../../lib/x86/Debug/LayoutEditor.lib</ImportLibrary>
+      <ProgramDataBaseFileName>F:/OpenResource/MyGUI/MyGUI_3.2.0/bin/Debug/LayoutEditor.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Windows</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MYGUI_RTTI_DISABLE_TYPE_INFO;_CRT_SECURE_NO_WARNINGS;MYGUI_OGRE_PLATFORM;MYGUI_SAMPLES_INPUT_WIN32;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>F:/OpenResource/MyGUI/MyGUI_3.2.0/bin/Release/LayoutEditor.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;../../lib/Release/Common.lib;../../lib/Release/MyGUI.OgrePlatform.lib;../../lib/Release/MyGUIEngine.lib;OgreMain.lib;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/Dependencies/lib/x86/release/freetype2311.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/lib;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>F:/OpenResource/MyGUI/MyGUI_3.2.0/lib/Release/LayoutEditor.lib</ImportLibrary>
+      <ProgramDataBaseFileName>F:/OpenResource/MyGUI/MyGUI_3.2.0/bin/Release/LayoutEditor.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Windows</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm500 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>.\;..\..\MyGUIEngine\include;..\..\Common;..\..\Common\Base\Ogre;..\..\Common\Input\Win32;..\..\Platforms\Ogre\OgrePlatform\include;$(ThirdLib)/Ogre 1.8.1/include;$(ThirdLib)/Ogre 1.8.1/OgreMain/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MYGUI_RTTI_DISABLE_TYPE_INFO;_CRT_SECURE_NO_WARNINGS;MYGUI_OGRE_PLATFORM;MYGUI_SAMPLES_INPUT_WIN32;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>../../bin/x86/Release/LayoutEditor.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;../../lib/x86/Release/Common.lib;../../lib/x86/Release/MyGUI.lib;../../lib/x86/Release/MyGUIEngine.lib;OgreMain.lib;freetype2311.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ThirdLib)\Ogre 1.8.1\lib\x86\$(Configuration);$(ThirdLib)\Ogre 1.8.1\Dependencies\lib\x86\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>../../lib/x86/Release/LayoutEditor.lib</ImportLibrary>
+      <ProgramDataBaseFileName>F:/OpenResource/MyGUI/MyGUI_3.2.0/bin/Release/LayoutEditor.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Windows</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MYGUI_RTTI_DISABLE_TYPE_INFO;_CRT_SECURE_NO_WARNINGS;MYGUI_OGRE_PLATFORM;MYGUI_SAMPLES_INPUT_WIN32;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>F:/OpenResource/MyGUI/MyGUI_3.2.0/bin/MinSizeRel/LayoutEditor.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;../../lib/MinSizeRel/Common.lib;../../lib/MinSizeRel/MyGUI.OgrePlatform.lib;../../lib/MinSizeRel/MyGUIEngine.lib;OgreMain.lib;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/Dependencies/lib/x86/release/freetype2311.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/lib;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>F:/OpenResource/MyGUI/MyGUI_3.2.0/lib/MinSizeRel/LayoutEditor.lib</ImportLibrary>
+      <ProgramDataBaseFileName>F:/OpenResource/MyGUI/MyGUI_3.2.0/bin/MinSizeRel/LayoutEditor.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Windows</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MYGUI_RTTI_DISABLE_TYPE_INFO;_CRT_SECURE_NO_WARNINGS;MYGUI_OGRE_PLATFORM;MYGUI_SAMPLES_INPUT_WIN32;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>F:/OpenResource/MyGUI/MyGUI_3.2.0/bin/MinSizeRel/LayoutEditor.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;../../lib/MinSizeRel/Common.lib;../../lib/MinSizeRel/MyGUI.OgrePlatform.lib;../../lib/MinSizeRel/MyGUIEngine.lib;OgreMain.lib;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/Dependencies/lib/x86/release/freetype2311.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/lib;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>F:/OpenResource/MyGUI/MyGUI_3.2.0/lib/MinSizeRel/LayoutEditor.lib</ImportLibrary>
+      <ProgramDataBaseFileName>F:/OpenResource/MyGUI/MyGUI_3.2.0/bin/MinSizeRel/LayoutEditor.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Windows</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MYGUI_RTTI_DISABLE_TYPE_INFO;_CRT_SECURE_NO_WARNINGS;MYGUI_OGRE_PLATFORM;MYGUI_SAMPLES_INPUT_WIN32;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>F:/OpenResource/MyGUI/MyGUI_3.2.0/bin/RelWithDebInfo/LayoutEditor.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;../../lib/RelWithDebInfo/Common.lib;../../lib/RelWithDebInfo/MyGUI.OgrePlatform.lib;../../lib/RelWithDebInfo/MyGUIEngine.lib;OgreMain.lib;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/Dependencies/lib/x86/release/freetype2311.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/lib;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>F:/OpenResource/MyGUI/MyGUI_3.2.0/lib/RelWithDebInfo/LayoutEditor.lib</ImportLibrary>
+      <ProgramDataBaseFileName>F:/OpenResource/MyGUI/MyGUI_3.2.0/bin/RelWithDebInfo/LayoutEditor.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Windows</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MYGUI_RTTI_DISABLE_TYPE_INFO;_CRT_SECURE_NO_WARNINGS;MYGUI_OGRE_PLATFORM;MYGUI_SAMPLES_INPUT_WIN32;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>F:/OpenResource/MyGUI/MyGUI_3.2.0/bin/RelWithDebInfo/LayoutEditor.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/.;F:/OpenResource/MyGUI/MyGUI_3.2.0/Common;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Base/Ogre;F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/OgreMain/include;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/include;F:/OpenResource/MyGUI/MyGUI_3.2.0/Tools/LayoutEditor/../../Common/Input/Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;../../lib/RelWithDebInfo/Common.lib;../../lib/RelWithDebInfo/MyGUI.OgrePlatform.lib;../../lib/RelWithDebInfo/MyGUIEngine.lib;OgreMain.lib;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/Dependencies/lib/x86/release/freetype2311.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/lib;F:/RDDept/Mmap1.0/GraphicsSystem/MetaMap3D/ThirdLib/Ogre 1.8.1/OgreMain/include/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>F:/OpenResource/MyGUI/MyGUI_3.2.0/lib/RelWithDebInfo/LayoutEditor.lib</ImportLibrary>
+      <ProgramDataBaseFileName>F:/OpenResource/MyGUI/MyGUI_3.2.0/bin/RelWithDebInfo/LayoutEditor.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Windows</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="AreaSelectorControl.h" />
+    <ClInclude Include="BackgroundControl.h" />
+    <ClInclude Include="BackwardCompatibilityManager.h" />
+    <ClInclude Include="ColourManager.h" />
+    <ClInclude Include="ColourPanel.h" />
+    <ClInclude Include="CommandManager.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="CyclicBuffer.h" />
+    <ClInclude Include="..\..\Common\Tools\Dialog.h" />
+    <ClInclude Include="..\..\Common\Tools\DialogManager.h" />
+    <ClInclude Include="EditorState.h" />
+    <ClInclude Include="EditorToolTip.h" />
+    <ClInclude Include="EditorWidgets.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="HotKeyCommand.h" />
+    <ClInclude Include="HotKeyManager.h" />
+    <ClInclude Include="IPropertyField.h" />
+    <ClInclude Include="Localise.h" />
+    <ClInclude Include="MainMenuControl.h" />
+    <ClInclude Include="MainPaneControl.h" />
+    <ClInclude Include="MainWorkspaceControl.h" />
+    <ClInclude Include="MessageBoxFadeControl.h" />
+    <ClInclude Include="MessageBoxManager.h" />
+    <ClInclude Include="MyGUI_FilterNoneSkin.h" />
+    <ClInclude Include="MyGUI_RTTLayer.h" />
+    <ClInclude Include="..\..\Common\Tools\OpenSaveFileDialog.h" />
+    <ClInclude Include="PanelExtensionProperties.h" />
+    <ClInclude Include="PanelTemplateProperties.h" />
+    <ClInclude Include="PositionSelectorControl.h" />
+    <ClInclude Include="PossibleValue.h" />
+    <ClInclude Include="ProjectControl.h" />
+    <ClInclude Include="PropertyFieldAlpha.h" />
+    <ClInclude Include="PropertyFieldColour.h" />
+    <ClInclude Include="PropertyFieldComboBox.h" />
+    <ClInclude Include="PropertyFieldEditBox.h" />
+    <ClInclude Include="PropertyFieldFileName.h" />
+    <ClInclude Include="PropertyFieldFont.h" />
+    <ClInclude Include="PropertyFieldManager.h" />
+    <ClInclude Include="PropertyFieldNumeric.h" />
+    <ClInclude Include="PropertyFieldPosition.h" />
+    <ClInclude Include="PropertyFieldSkin.h" />
+    <ClInclude Include="PropertyFieldType.h" />
+    <ClInclude Include="RecentFilesManager.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SelectorControl.h" />
+    <ClInclude Include="SeparatorPartControl.h" />
+    <ClInclude Include="SettingsGeneralControl.h" />
+    <ClInclude Include="SettingsManager.h" />
+    <ClInclude Include="SettingsResourcePathsControl.h" />
+    <ClInclude Include="SettingsResourcesControl.h" />
+    <ClInclude Include="SettingsSector.h" />
+    <ClInclude Include="SettingsUpdateResourcesControl.h" />
+    <ClInclude Include="SettingsWidgetsControl.h" />
+    <ClInclude Include="SkinInfo.h" />
+    <ClInclude Include="StateController.h" />
+    <ClInclude Include="StateManager.h" />
+    <ClInclude Include="TestState.h" />
+    <ClInclude Include="TextFieldControl.h" />
+    <ClInclude Include="TextureControl.h" />
+    <ClInclude Include="TextureToolControl.h" />
+    <ClInclude Include="ToolsControl.h" />
+    <ClInclude Include="UndoManager.h" />
+    <ClInclude Include="WidgetContainer.h" />
+    <ClInclude Include="WidgetCreatorManager.h" />
+    <ClInclude Include="WidgetSelectorManager.h" />
+    <ClInclude Include="WidgetStyle.h" />
+    <ClInclude Include="WidgetTypes.h" />
+    <ClInclude Include="WorkspaceControl.h" />
+    <ClInclude Include="PanelControllers.h" />
+    <ClInclude Include="PanelItems.h" />
+    <ClInclude Include="PanelMainProperties.h" />
+    <ClInclude Include="PanelProperties.h" />
+    <ClInclude Include="PanelUserData.h" />
+    <ClInclude Include="PanelView.h" />
+    <ClInclude Include="PanelViewCell.h" />
+    <ClInclude Include="PropertiesPanelView.h" />
+    <ClInclude Include="SettingsWindow.h" />
+    <ClInclude Include="WidgetsWindow.h" />
+    <ClInclude Include="Parse.h" />
+    <ClInclude Include="GroupMessage.h" />
+    <ClInclude Include="CodeGenerator.h" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="AreaSelectorControl.cpp" />
+    <ClCompile Include="BackgroundControl.cpp" />
+    <ClCompile Include="BackwardCompatibilityManager.cpp" />
+    <ClCompile Include="ColourManager.cpp" />
+    <ClCompile Include="ColourPanel.cpp" />
+    <ClCompile Include="CommandManager.cpp" />
+    <ClCompile Include="..\..\Common\Tools\Dialog.cpp" />
+    <ClCompile Include="..\..\Common\Tools\DialogManager.cpp" />
+    <ClCompile Include="EditorState.cpp" />
+    <ClCompile Include="EditorToolTip.cpp" />
+    <ClCompile Include="EditorWidgets.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="HotKeyManager.cpp" />
+    <ClCompile Include="MainMenuControl.cpp" />
+    <ClCompile Include="MainPaneControl.cpp" />
+    <ClCompile Include="MainWorkspaceControl.cpp" />
+    <ClCompile Include="MessageBoxFadeControl.cpp" />
+    <ClCompile Include="MessageBoxManager.cpp" />
+    <ClCompile Include="MyGUI_FilterNoneSkin.cpp" />
+    <ClCompile Include="MyGUI_RTTLayer.cpp" />
+    <ClCompile Include="..\..\Common\Tools\OpenSaveFileDialog.cpp" />
+    <ClCompile Include="PanelExtensionProperties.cpp" />
+    <ClCompile Include="PanelTemplateProperties.cpp" />
+    <ClCompile Include="PositionSelectorControl.cpp" />
+    <ClCompile Include="ProjectControl.cpp" />
+    <ClCompile Include="PropertyFieldAlpha.cpp" />
+    <ClCompile Include="PropertyFieldColour.cpp" />
+    <ClCompile Include="PropertyFieldComboBox.cpp" />
+    <ClCompile Include="PropertyFieldEditBox.cpp" />
+    <ClCompile Include="PropertyFieldFileName.cpp" />
+    <ClCompile Include="PropertyFieldFont.cpp" />
+    <ClCompile Include="PropertyFieldManager.cpp" />
+    <ClCompile Include="PropertyFieldNumeric.cpp" />
+    <ClCompile Include="PropertyFieldPosition.cpp" />
+    <ClCompile Include="PropertyFieldSkin.cpp" />
+    <ClCompile Include="PropertyFieldType.cpp" />
+    <ClCompile Include="RecentFilesManager.cpp" />
+    <ClCompile Include="SelectorControl.cpp" />
+    <ClCompile Include="SeparatorPartControl.cpp" />
+    <ClCompile Include="SettingsGeneralControl.cpp" />
+    <ClCompile Include="SettingsManager.cpp" />
+    <ClCompile Include="SettingsResourcePathsControl.cpp" />
+    <ClCompile Include="SettingsResourcesControl.cpp" />
+    <ClCompile Include="SettingsSector.cpp" />
+    <ClCompile Include="SettingsUpdateResourcesControl.cpp" />
+    <ClCompile Include="SettingsWidgetsControl.cpp" />
+    <ClCompile Include="StateManager.cpp" />
+    <ClCompile Include="TestState.cpp" />
+    <ClCompile Include="TextFieldControl.cpp" />
+    <ClCompile Include="TextureControl.cpp" />
+    <ClCompile Include="TextureToolControl.cpp" />
+    <ClCompile Include="ToolsControl.cpp" />
+    <ClCompile Include="UndoManager.cpp" />
+    <ClCompile Include="WidgetContainer.cpp" />
+    <ClCompile Include="WidgetCreatorManager.cpp" />
+    <ClCompile Include="WidgetSelectorManager.cpp" />
+    <ClCompile Include="WidgetTypes.cpp" />
+    <ClCompile Include="WorkspaceControl.cpp" />
+    <None Include="LayoutEditor.rc" />
+    <ClCompile Include="..\..\Common\Precompiled.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Precompiled.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="PanelControllers.cpp" />
+    <ClCompile Include="PanelItems.cpp" />
+    <ClCompile Include="PanelMainProperties.cpp" />
+    <ClCompile Include="PanelProperties.cpp" />
+    <ClCompile Include="PanelUserData.cpp" />
+    <ClCompile Include="PropertiesPanelView.cpp" />
+    <ClCompile Include="SettingsWindow.cpp" />
+    <ClCompile Include="WidgetsWindow.cpp" />
+    <ClCompile Include="Parse.cpp" />
+    <ClCompile Include="GroupMessage.cpp" />
+    <ClCompile Include="CodeGenerator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:/OpenResource/MyGUI/MyGUI_3.2.0/Plugins/Plugin_HikariWidget/Plugin_HikariWidget.vcxproj">
+      <Project>3762AFF6-6398-4CC6-919E-63AAEBF9FF1C</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/OpenResource/MyGUI/MyGUI_3.2.0/Common/Common.vcxproj">
+      <Project>2DD9DF1E-C6F8-420D-9C76-F651267335AB</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/OpenResource/MyGUI/MyGUI_3.2.0/MyGUIEngine/MyGUIEngine.vcxproj">
+      <Project>2F9CF398-C0E0-493F-AACD-04E45EAB23FF</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/OpenResource/MyGUI/MyGUI_3.2.0/Platforms/Ogre/OgrePlatform/MyGUI.OgrePlatform.vcxproj">
+      <Project>9FA3C219-60F3-4365-95D6-C1B9982E0A03</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/OpenResource/MyGUI/MyGUI_3.2.0/Plugins/Plugin_StrangeButton/Plugin_StrangeButton.vcxproj">
+      <Project>720A8782-BD1F-4D40-BD08-8EDF72EFE6AA</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

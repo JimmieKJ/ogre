@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource">
+	<Resource type="ResourceLayout" name="BubbleCS" version="3.2.0">
+		<Widget type="Widget" skin="PanelEmpty" position="0 0 194 100" name="Root">
+			<Property key="Snap" value="true"/>
+			<Property key="Movable" value="true"/>
+            <UserString key="LE_TargetWidgetType" value="Window"/>
+			<Widget type="Widget" skin="BubbleTop" position="0 0 194 10" align="HStretch Top"/>
+			<Widget type="Widget" skin="BubbleClient" position="0 10 194 54" align="Stretch"/>
+			<Widget type="Widget" skin="BubbleBottom" position="0 64 194 18" align="HStretch Bottom"/>
+		</Widget>
+	</Resource>
+</MyGUI>

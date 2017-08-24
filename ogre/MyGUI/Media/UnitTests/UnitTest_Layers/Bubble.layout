@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout">
+
+    <Widget type="Window" skin="PanelEmpty" position="10 10 194 81" layer="RTT_EditPlane2" name="_Main">
+        <Property key="Caption" value="编辑框一二三四56789012345678901234567890"/>
+        <Property key="MinSize" value="50 26"/>
+			<Widget type="Widget" skin="BubbleTop" position="0 0 194 10" align="HStretch Top" name="Top"></Widget>
+			<Widget type="Widget" skin="BubbleClient" position="0 10 194 54" align="Stretch" name="Client">
+				<Widget type="TextBox" skin="TextBox" position="7 0 188 166" align="Stretch" name="Text">
+					<Property key="Caption" value="编辑框0123456789012345\nabc\n的的工本费\n编辑框一二三四56789012345678901234567890"/>
+					<Property key="TabPrinting" value="true"/>
+				</Widget>
+			</Widget>
+			<Widget type="Widget" skin="BubbleBottom" position="0 64 194 18" align="HStretch Bottom" name="Bottom"/>
+
+		
+    </Widget>
+
+			
+</MyGUI>

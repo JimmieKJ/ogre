@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DemoKeeper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeControl.cpp">
+      <Filter>Source Files\TreeControl</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeControlItem.cpp">
+      <Filter>Source Files\TreeControl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DemoKeeper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericNode.h">
+      <Filter>Header Files\TreeControl</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeControl.h">
+      <Filter>Header Files\TreeControl</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeControlItem.h">
+      <Filter>Header Files\TreeControl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files\TreeControl">
+      <UniqueIdentifier>{5EAF4634-8ECA-4EC2-A8C7-BEED46330EAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TreeControl">
+      <UniqueIdentifier>{E589CAC9-05FE-43D5-92C9-525843B240D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9C8058A4-9A89-4387-88FC-F822627BDB0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{75001DB6-E090-41D7-B532-4DB2126BE087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{0BDB892F-DB89-4B96-9178-CB22BF4ED119}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Common\Base\BaseResource.rc">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
